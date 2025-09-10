@@ -1,0 +1,24 @@
+2025-09-10 13:45:45 - INFO - Starting new research run with timestamp: 2025-09-10_13-45-45
+2025-09-10 13:45:45 - INFO - Database initialized successfully
+2025-09-10 13:45:45 - INFO - Searching Google Scholar with query: chess gender inequality women grandmasters OR female chess players OR gender gap chess performance
+2025-09-10 13:45:50 - INFO - Retrieved 20 papers from Google Scholar
+2025-09-10 13:45:51 - INFO - Parsing paper metadata
+2025-09-10 13:45:51 - INFO - Successfully parsed 20 papers
+2025-09-10 13:45:51 - INFO - Exported all papers to exports/all_papers_2025-09-10_13-45-45.csv
+2025-09-10 13:45:51 - INFO - Starting relevance analysis
+2025-09-10 13:45:51 - INFO - Using relevance keywords: gender, inequality, women, female, grandmaster, gap, stereotype, bias
+2025-09-10 13:45:51 - INFO - Exported top 5 papers to exports/top_papers_2025-09-10_13-45-45.csv
+2025-09-10 13:45:51 - INFO - Exported compatibility file to exports/chess_gender_inequality_top5.csv
+2025-09-10 13:45:51 - INFO - Top paper 1: The e ects of gender-segregated competition on learning and performance in chess (Score: 5)
+2025-09-10 13:45:51 - INFO - Top paper 2: Women and the organizational chess game: A qualitative study of gender, discourse, power, and strategy (Score: 4)
+2025-09-10 13:45:51 - INFO - Top paper 3: [PDF][PDF] Scientific explanations of the performance gender gap in chess and science, technology, engineering and mathematics (STEM) (Score: 4)
+2025-09-10 13:45:51 - INFO - Top paper 4: Strategic behavior across gender: A comparison of female and male expert chess players (Score: 3)
+2025-09-10 13:45:51 - INFO - Top paper 5: The Gender-Equality Paradox in Chess Participation Is Partially Explained by the Generational-Shift Account but Fully Inconsistent With Existing Alternative Accounts … (Score: 3)
+2025-09-10 13:45:51 - INFO - Generating visualizations
+2025-09-10 13:45:51 - INFO - Saved visualizations to exports/top_papers_graph_2025-09-10_13-45-45.png and exports/top_papers_graph_2025-09-10_13-45-45.svg
+2025-09-10 13:45:51 - INFO - Pipeline execution completed successfully
+2025-09-10 13:45:52 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2025-09-10 13:45:52 - INFO - [33mPress CTRL+C to quit[0m

@@ -1,0 +1,56 @@
+# Docker Commands for Chess Gender Inequality Project
+
+# Build the Docker image
+docker build -t chess-gender-inequality .
+
+# Run the container (with proper volume mounting to fix permission issues)
+# For Windows PowerShell:
+docker run -p 8888:8888 -v ${PWD}:/app -v ${PWD}/exports:/app/exports -v ${PWD}/logs:/app/logs -v ${PWD}/database:/app/database -v ${PWD}/cache:/app/cache --user root chess-gender-inequality
+
+# For Windows CMD:
+# docker run -p 8888:8888 -v %cd%:/app -v %cd%/exports:/app/exports -v %cd%/logs:/app/logs -v %cd%/database:/app/database -v %cd%/cache:/app/cache --user root chess-gender-inequality
+
+# For Linux/Mac:
+# docker run -p 8888:8888 -v $(pwd):/app -v $(pwd)/exports:/app/exports -v $(pwd)/logs:/app/logs -v $(pwd)/database:/app/database -v $(pwd)/cache:/app/cache --user root chess-gender-inequality
+
+# After running the container, simply open:
+# http://localhost:8888
+#
+# No token or password required!
+
+# The command above will:
+# - Map port 8888 from container to host
+# - Mount current directory to /app in container
+# - Explicitly mount exports, logs, database and cache directories with write permissions
+# - Run as root user to avoid permission issues
+# - Start Jupyter notebook server with no-token access
+
+# DOCKER COMPOSE COMMANDS (RECOMMENDED FOR ENTERPRISE USAGE)
+# ------------------------------------------------------
+# Build and start all services with Docker Compose:
+docker-compose up -d
+
+# Stop all services:
+docker-compose down
+
+# View logs:
+docker-compose logs -f
+
+# Rebuild and restart:
+docker-compose up -d --build
+
+# Access the Jupyter server at:
+# http://localhost:8888
+
+# Access the API server at (if enabled):
+# http://localhost:5000
+
+# Other useful commands:
+# View running containers:
+# docker ps
+
+# Stop container:
+# docker stop <container_id>
+
+# View container logs:
+# docker logs <container_id>

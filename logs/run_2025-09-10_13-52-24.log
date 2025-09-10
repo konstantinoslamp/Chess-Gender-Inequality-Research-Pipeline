@@ -1,0 +1,29 @@
+2025-09-10 13:52:24 - INFO - Starting new research run with timestamp: 2025-09-10_13-52-24
+2025-09-10 13:52:24 - INFO - Database initialized successfully
+2025-09-10 13:52:24 - INFO - Searching Google Scholar with query: chess gender inequality women grandmasters OR female chess players OR gender gap chess performance
+2025-09-10 13:52:30 - INFO - Retrieved 20 papers from Google Scholar
+2025-09-10 13:52:30 - INFO - Parsing paper metadata
+2025-09-10 13:52:30 - INFO - Successfully parsed 20 papers
+2025-09-10 13:52:30 - INFO - Exported all papers to exports/all_papers_2025-09-10_13-52-24.csv
+2025-09-10 13:52:30 - INFO - Starting relevance analysis
+2025-09-10 13:52:30 - INFO - Using relevance keywords: gender, inequality, women, female, grandmaster, gap, stereotype, bias
+2025-09-10 13:52:30 - INFO - Exported top 5 papers to exports/top_papers_2025-09-10_13-52-24.csv
+2025-09-10 13:52:30 - INFO - Exported compatibility file to exports/chess_gender_inequality_top5.csv
+2025-09-10 13:52:30 - INFO - Top paper 1: The e ects of gender-segregated competition on learning and performance in chess (Score: 5)
+2025-09-10 13:52:30 - INFO - Top paper 2: [PDF][PDF] Gender in Chess: a mixed-method approach (Score: 4)
+2025-09-10 13:52:30 - INFO - Top paper 3: Women and the organizational chess game: A qualitative study of gender, discourse, power, and strategy (Score: 4)
+2025-09-10 13:52:30 - INFO - Top paper 4: Checking gender bias: Parents and mentors perceive less chess potential in girls. (Score: 4)
+2025-09-10 13:52:30 - INFO - Top paper 5: [PDF][PDF] Scientific explanations of the performance gender gap in chess and science, technology, engineering and mathematics (STEM) (Score: 4)
+2025-09-10 13:52:30 - INFO - Generating visualizations
+2025-09-10 13:52:30 - INFO - Saved visualizations to exports/top_papers_graph_2025-09-10_13-52-24.png and exports/top_papers_graph_2025-09-10_13-52-24.svg
+2025-09-10 13:52:30 - INFO - Pipeline execution completed successfully
+2025-09-10 13:52:31 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+2025-09-10 13:52:31 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-10 13:52:43 - INFO - 172.18.0.1 - - [10/Sep/2025 13:52:43] "[31m[1mGET /api/search HTTP/1.1[0m" 405 -
+2025-09-10 13:52:43 - INFO - 172.18.0.1 - - [10/Sep/2025 13:52:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-10 13:52:46 - INFO - 172.18.0.1 - - [10/Sep/2025 13:52:46] "GET /api/top_papers HTTP/1.1" 200 -
+2025-09-10 13:52:53 - INFO - 172.18.0.1 - - [10/Sep/2025 13:52:53] "GET / HTTP/1.1" 200 -
+2025-09-10 13:52:57 - INFO - 172.18.0.1 - - [10/Sep/2025 13:52:57] "GET / HTTP/1.1" 200 -

@@ -1,0 +1,12 @@
+2025-09-10 12:26:32 - INFO - Starting new research run with timestamp: 2025-09-10_12-26-32
+2025-09-10 12:26:32 - INFO - Searching Google Scholar with query: chess gender inequality women grandmasters OR female chess players OR gender gap chess performance
+2025-09-10 12:26:38 - INFO - Retrieved 20 papers from Google Scholar
+2025-09-10 12:26:38 - INFO - Parsing paper metadata
+2025-09-10 12:26:38 - INFO - Successfully parsed 20 papers
+2025-09-10 12:26:38 - INFO - Exported all papers to exports/all_papers_2025-09-10_12-26-32.csv
+2025-09-10 12:26:38 - INFO - Starting relevance analysis
+2025-09-10 12:26:38 - INFO - Using relevance keywords: gender, inequality, women, female, grandmaster, gap, stereotype, bias
+2025-09-10 12:26:38 - INFO - Exported top 5 papers to exports/top_papers_2025-09-10_12-26-32.csv
+2025-09-10 12:27:20 - INFO - Generating visualizations
+2025-09-10 12:27:20 - INFO - Saved visualizations to exports/top_papers_graph_2025-09-10_12-26-32.png and exports/top_papers_graph_2025-09-10_12-26-32.svg
+2025-09-10 12:27:21 - INFO - Pipeline execution completed successfully

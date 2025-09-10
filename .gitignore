@@ -1,0 +1,38 @@
+# .gitignore for Chess Gender Inequality Research Project
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Logs and data (optional - uncomment if you don't want to include these)
+# logs/
+# exports/
+# database/
+# cache/
+
+# Docker
+.docker/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
